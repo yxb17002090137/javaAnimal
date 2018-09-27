@@ -44,7 +44,7 @@ public class Animal{
 	public void setweight(String weight){
 		this.weight=weight;
 	}
-	
+}
 	public class Wolf extends Animal{
 		private String eyescolor;
 		public Wolf(){
@@ -59,7 +59,6 @@ public class Animal{
 			return eyescolor;
 		}
 	}
-}
 public class Tiger extends Animal{
 	private String food;
 	
