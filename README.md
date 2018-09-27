@@ -32,32 +32,20 @@ public class Animal{
 	public void  setname(String name) {
 		this.name=name;
 	}
-	public String getheight(){
-		return height;
-	}
-	public void setheight(String height){
-		this.height=height;
-	}
-	public String getweight(){
-		return weight;
-	}
-	public void setweight(String weight){
-		this.weight=weight;
-	}
 }
 	public class Wolf extends Animal{
 		private String eyescolor;
-		public Wolf(){
-		}
-		public Wolf(String eyescolor){
-			this.eyescolor=eyescolor;
-		}
-		public String geteyescolor(){
-			this.eyescolor=eyescolor;
-		}
-		public String seteyescolor(){
-			return eyescolor;
-		}
+	public Wolf(){
+	}
+	public Wolf(String eyescolor){
+		this.eyescolor=eyescolor;
+	}
+	public String geteyescolor(){
+		this.eyescolor=eyescolor;
+	}
+	public String seteyescolor(){
+		return eyescolor;
+	}
 	}
 public class Tiger extends Animal{
 	private String food;
