@@ -45,6 +45,12 @@ public class Animal{
 		this.weight=weight;
 	}
 	
+	public String geteyescolor(){
+		return eyescolor;
+	}
+	public void seteyescolor(String eyescolor){
+		this.eyescolor=eyescolor;
+	}
 }
 public class Tiger extends Animal{
 	private String food;
